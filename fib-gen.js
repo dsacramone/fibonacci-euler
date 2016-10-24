@@ -4,8 +4,7 @@
 * sum all of the even values
 */
 
-function *fib(n1 = 1, n2 = 2
-) {
+function *fib(n1 = 1, n2 = 2) {
   if (n1 >= 4000000) return n1;
 
   yield *fib(n2, n1 + n2), yield n1;
